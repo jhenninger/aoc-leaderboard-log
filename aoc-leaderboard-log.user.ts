@@ -4,6 +4,9 @@
 // @namespace jhenninger
 // @match https://adventofcode.com/*/leaderboard/private/view/*
 // @grant none
+// @version 1.0.0
+// @downloadURL https://github.com/jhenninger/aoc-leaderboard-log/releases/latest/download/aoc-leaderboard-log.user.js
+// @homepageURL https://github.com/jhenninger/aoc-leaderboard-log
 // ==/UserScript==
 
 interface Leaderboard {
