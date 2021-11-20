@@ -1,0 +1,16 @@
+{
+  "name": "aoc-leaderboard-log",
+  "version": "1.0.0",
+  "description": "Userscript that adds a simple event log to private Advent of Code leaderboards",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "serve": "tsc -w & sleep 1 && http-server -a localhost -s -c-1 -o /aoc-leaderboard-log.user.js"
+  },
+  "author": "Johannes Henninger",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.0.0",
+    "typescript": "^4.5.2"
+  }
+}

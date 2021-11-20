@@ -1,0 +1,7 @@
+{
+  "files": ["aoc-leaderboard-log.user.ts"],
+  "compilerOptions": {
+    "target": "es2021",
+    "strict": true,
+  }
+}
